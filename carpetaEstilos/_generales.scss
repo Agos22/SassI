@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.contenedor-index {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 30cm 5cm;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer";
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    justify-content: center;
+}
+.banner {
+    width: 40px;
+    height: 20px;
+    justify-content: center;
+}
+.contenedor-nosotros {
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:5cm 10cm 10cm 5cm;
+    grid-template-areas: 
+    "header"
+    "nav"
+    "footer";
+}
