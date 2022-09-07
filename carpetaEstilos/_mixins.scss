@@ -1,0 +1,21 @@
+@mixin botones($color) {
+    background-color: $color;
+    border: none;
+    padding: 10px;
+    border-radius: 05px;
+  }
+  
+  .boton {
+    @include botones(rgb(255, 53, 194));
+    color: #fff;
+  }
+  
+  .boton-primario {
+    @include botones(rgb(14, 3, 10));
+    color: #fff;
+  }
+  
+  .boton-secundario {
+    @include botones(#333);
+    color: #fff;
+  }

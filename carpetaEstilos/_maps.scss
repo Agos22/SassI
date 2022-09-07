@@ -1,0 +1,22 @@
+$estilos: (
+  colorPrimario: #ff67ff,
+  colorSecundario: #f4ffd6,
+  colorTextoClaro: #fff,
+  colorTextoOscuro: #222,
+  paddingDefault: 10px,
+  borderRadius: 05px
+);
+  
+  .boton-primario {
+    background-color: map-get($estilos, colorPrimario);
+    color: map-get($estilos, colorTextoClaro);
+    padding: map-get($estilos, paddingDefault);
+}
+
+.boton-secundario {
+  background-color: map-get($estilos, colorSecundario);
+  color: map-get($estilos, colorTextoOscuro);
+  padding: map-get($estilos, paddingDefault);
+  border: none;
+  border-radius: map-get($estilos, borderRadius);
+}
